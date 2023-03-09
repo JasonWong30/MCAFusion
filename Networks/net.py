@@ -288,9 +288,7 @@ class HourGlassBlock(nn.Module):
     def forward(self, x, pmask=None):
         if self.depth == 0: return x
         input_x = x
-        # 这个是两个三角形
         x = self._forward(self.depth, x)
-        # 这个是最后的卷积加sigmoid
         self.att_map = self.out_block(x)
         x = input_x * self.att_map
         return x
@@ -312,16 +310,6 @@ class MultiSpectralDCTLayer(nn.Module):
         # fixed DCT init, 这个不参与反向传播
         self.register_buffer('weight', self.get_dct_filter(height, width, mapper_x, mapper_y, channel))
 
-        # fixed random init
-        # self.register_buffer('weight', torch.rand(channel, height, width))
-
-        # learnable DCT init
-        # self.register_parameter('weight', self.get_dct_filter(height, width, mapper_x, mapper_y, channel))
-
-        # learnable random init
-        # self.register_parameter('weight', torch.rand(channel, height, width))
-
-        # num_freq, h, w
 
     def forward(self, x):
         assert len(x.shape) == 4, 'x must been 4 dimensions, but got ' + str(len(x.shape))
