@@ -59,15 +59,15 @@ python test.py
 
 ### Qualitative fusion results.
 
-<img src="Fig//PET-MRI.jpg" width="100%" align=center />
+<img src="Fig//PET-MRI.jpg" width="80%" align=center />
 
-<img src="Fig//SPECT-MRI.jpg" width="100%" align=center />
+<img src="Fig//SPECT-MRI.jpg" width="80%" align=center />
 
 ### Quantitative fusion results.
 
 Medical Image Fusion
 
-<img src="Fig//metrics.jpg" width="60%" align=center />
+<img src="Fig//metrics.jpg" width="80%" align=center />
 
 ## 📖 Related Work
 - Jingxue Huang, Tianshu Tan, Xiaosong Li, Tao Ye, Yanxiong Wu, *Multiple Attention Channels Aggregated Network for Multimodal Medical Image Fusion.* **Medical Physics 2024**. https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.17607
