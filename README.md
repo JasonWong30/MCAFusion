@@ -55,17 +55,19 @@ python test.py
 
 ### Illustration of our MCAFusion method.
 
-<img src="image//Workflow1.png" width="60%" align=center />
+<img src="Fig//Framework.jpg" width="60%" align=center />
 
 ### Qualitative fusion results.
 
-<img src="image//IVF1.png" width="100%" align=center />
+<img src="Fig//PET-MRI.jpg" width="100%" align=center />
+
+<img src="Fig//SPECT-MRI.jpg" width="100%" align=center />
 
 ### Quantitative fusion results.
 
 Medical Image Fusion
 
-<img src="image//Quantitative_MIF.png" width="60%" align=center />
+<img src="Fig//metrics.jpg" width="60%" align=center />
 
 ## 📖 Related Work
 - Jingxue Huang, Tianshu Tan, Xiaosong Li, Tao Ye, Yanxiong Wu, *Multiple Attention Channels Aggregated Network for Multimodal Medical Image Fusion.* **Medical Physics 2024**. https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.17607
