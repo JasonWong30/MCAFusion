@@ -39,11 +39,11 @@ As a powerful and continuously sought-after medical assistance technique, multim
  - [ ] Pillow  8.4.0
 ```
 
-### 🏊 3. Data Preparation
+### 🏊 2. Data Preparation
 
 Download the Multi-modal Medical Image Fusion (MMIF) and place the paired images in your own path.
 
-### 🏄 4. Inference
+### 🏄 3. Inference
 
 If you want to infer with our MCAFusion and obtain the fusion results in our paper, please run
 
